@@ -7,6 +7,7 @@ import { CharacterService } from './character.service';
   template: `
     <a [routerLink]="['/dashboard']">Dashboard</a>
     <a [routerLink]="['/characters']">Characters</a>
+    <a [routerLink]="['/login']">login</a>
     <router-outlet></router-outlet>
     `
 })

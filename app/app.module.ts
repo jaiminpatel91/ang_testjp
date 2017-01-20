@@ -12,7 +12,7 @@ import { CharacterService } from './character.service'
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   declarations: [AppComponent, routedComponents],
   providers: [CharacterService],

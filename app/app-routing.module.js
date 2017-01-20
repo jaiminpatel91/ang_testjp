@@ -9,6 +9,7 @@ var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var characters_component_1 = require("./characters.component");
 var dashboard_component_1 = require("./dashboard.component");
+var login_component_1 = require("./login.component");
 var page_not_found_component_1 = require("./page-not-found.component");
 exports.routes = [
     {
@@ -17,7 +18,8 @@ exports.routes = [
         redirectTo: 'dashboard',
     },
     { path: 'dashboard', component: dashboard_component_1.DashboardComponent },
-    { path: 'characters', component: characters_component_1.CharactersComponent, },
+    { path: 'characters', component: characters_component_1.CharactersComponent },
+    { path: 'login', component: login_component_1.LoginComponent },
     { path: '**', pathMatch: 'full', component: page_not_found_component_1.PageNotFoundComponent }
 ];
 var AppRoutingModule = (function () {
@@ -32,5 +34,5 @@ AppRoutingModule = __decorate([
     })
 ], AppRoutingModule);
 exports.AppRoutingModule = AppRoutingModule;
-exports.routedComponents = [dashboard_component_1.DashboardComponent, characters_component_1.CharactersComponent, page_not_found_component_1.PageNotFoundComponent];
+exports.routedComponents = [dashboard_component_1.DashboardComponent, characters_component_1.CharactersComponent, login_component_1.LoginComponent, page_not_found_component_1.PageNotFoundComponent];
 //# sourceMappingURL=app-routing.module.js.map

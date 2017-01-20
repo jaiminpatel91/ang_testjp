@@ -6,22 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var DashboardComponent = (function () {
-    function DashboardComponent() {
-        this.name = 'jaimin';
-        this.message = '';
+var LoginComponent = (function () {
+    function LoginComponent() {
     }
-    DashboardComponent.prototype.sayHello = function () {
-        this.message = 'Hello ' + this.name + '!';
-    };
-    return DashboardComponent;
+    return LoginComponent;
 }());
-DashboardComponent = __decorate([
+LoginComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'my-dashboard',
-        templateUrl: 'dashboard.component.html'
+        selector: 'my-login',
+        templateUrl: 'LoginComponent.html'
     })
-], DashboardComponent);
-exports.DashboardComponent = DashboardComponent;
-//# sourceMappingURL=dashboard.component.js.map
+], LoginComponent);
+exports.LoginComponent = LoginComponent;
+//# sourceMappingURL=login.component.js.map

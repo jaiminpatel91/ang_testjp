@@ -23,7 +23,7 @@ AppModule = __decorate([
             platform_browser_1.BrowserModule,
             forms_1.FormsModule,
             http_1.HttpModule,
-            app_routing_module_1.AppRoutingModule,
+            app_routing_module_1.AppRoutingModule
         ],
         declarations: [app_component_1.AppComponent, app_routing_module_1.routedComponents],
         providers: [character_service_1.CharacterService],
