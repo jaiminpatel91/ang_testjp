@@ -1,1 +1,8 @@
-<h1>Hello Im todo</h1>
+<div id="todo">
+    <div *ngFor="let todo of todos; let i=index">{{todo.newTodo}}
+        <span (click)="deleteTodo(i)">[X]</span>
+    </div>
+    <br>
+    <input type="text" [(ngModel)]="newTodo" placeholder="Enter Task Here ... "/>
+    <button (click)="addTodo()">Add</button>
+</div>

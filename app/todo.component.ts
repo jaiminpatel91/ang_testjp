@@ -6,4 +6,26 @@ import { Component } from '@angular/core';
 	templateUrl: 'todoComponent.html'
 })
 
-export class todoComponent{ }
+export class todoComponent{ 
+    newTodo: string;
+    todos: any;
+    todoObj: any;
+
+    constructor(){
+        this.newTodo = '';
+        this.todos = [];
+    }
+
+    addTodo() {
+        this.todoObj = {
+            newTodo: this.newTodo,
+            completed: false
+        }
+        this.todos.push(this.todoObj);
+        this.newTodo = '';
+    }
+
+    deleteTodo(index) {
+      this.todos.splice(index, 1);
+    }
+}
