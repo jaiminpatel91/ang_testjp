@@ -19,4 +19,3 @@ LoginComponent = __decorate([
     })
 ], LoginComponent);
 exports.LoginComponent = LoginComponent;
-//# sourceMappingURL=login.component.js.map

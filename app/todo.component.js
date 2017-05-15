@@ -6,16 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var PageNotFoundComponent = (function () {
-    function PageNotFoundComponent() {
+var todoComponent = (function () {
+    function todoComponent() {
     }
-    return PageNotFoundComponent;
+    return todoComponent;
 }());
-PageNotFoundComponent = __decorate([
+todoComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'ev-404',
-        template: "\n    <article class=\"\">\n      <h4>Inconceivable!</h4>\n      <div>I do not think this page is where you think it is.</div>\n    </article>\n  "
+        selector: 'todo',
+        templateUrl: 'todoComponent.html'
     })
-], PageNotFoundComponent);
-exports.PageNotFoundComponent = PageNotFoundComponent;
+], todoComponent);
+exports.todoComponent = todoComponent;

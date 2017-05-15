@@ -44,4 +44,3 @@ CharactersComponent = __decorate([
     __metadata("design:paramtypes", [character_service_1.CharacterService])
 ], CharactersComponent);
 exports.CharactersComponent = CharactersComponent;
-//# sourceMappingURL=characters.component.js.map

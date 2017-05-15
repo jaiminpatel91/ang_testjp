@@ -30,4 +30,3 @@ CharacterService = __decorate([
     __metadata("design:paramtypes", [http_1.Http])
 ], CharacterService);
 exports.CharacterService = CharacterService;
-//# sourceMappingURL=character.service.js.map

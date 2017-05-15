@@ -33,4 +33,3 @@ System.config({
         'app/models': { main: 'index' },
     }
 });
-//# sourceMappingURL=system-config.js.map
