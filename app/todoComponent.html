@@ -1,8 +1,12 @@
 <div id="todo">
-    <div *ngFor="let todo of todos; let i=index">{{todo.newTodo}}
-        <span (click)="deleteTodo(i)">[X]</span>
-    </div>
-    <br>
-    <input type="text" [(ngModel)]="newTodo" placeholder="Enter Task Here ... "/>
+   <input type="text" [(ngModel)]="newTodo" placeholder="Enter Task Here ... "/>
     <button (click)="addTodo()">Add</button>
+
+        <div *ngIf="size > 0">Total pending Tasks: {{size}}</div>
+         <div  *ngFor="let todo of todos; let i=index">
+        <span>{{i+1}} )</span>
+        <span>{{todo}}</span>
+        <span (click)="deleteTodo(i)" class="cancel">[X]</span>
+        <br>
+        </div>
 </div>
